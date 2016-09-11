@@ -23,6 +23,7 @@ class ZelinskyVincentH1
     System.out.println ("Item examine = "+ItemExamine);
   }
 }
+//Superclass of Weapons, Armor, and Nutrition
 //Contains get methods to the private fields: Name, Weight, Examine
 class Item 
 {
@@ -45,5 +46,17 @@ class Item
   String examine() 
   {
     return Examine;
+  }
+}
+//Contains get method to the private field of Damage
+class Weapon extends Item 
+{
+  //Initializes and sets value for Damage field
+  private int Damage = 2;
+  
+  //Get method to return the int value of Damage
+  int getDamage() 
+  {
+    return Damage;
   }
 }
