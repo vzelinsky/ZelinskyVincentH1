@@ -21,6 +21,21 @@ class ZelinskyVincentH1
     System.out.println ("Item name = "+ItemName);
     System.out.println ("Item weight = "+ItemWeight);
     System.out.println ("Item examine = "+ItemExamine);
+    
+    //Creates an instance of the Weapon class known as w
+    Weapon w = new Weapon();
+    
+    //Initializes variables WeaponName, WeaponWeight, WeaponExamine, and WeaponDamage and sets them to corresponding method calls
+    String WeaponName = w.getName();
+    int WeaponWeight = w.getWeight();
+    String WeaponExamine = w.examine();
+    int WeaponDamage = w.getDamage();
+    
+    //Prints to console the values of Weapon w's fields after a new line for clarity
+    System.out.println ("\nWeapon name = "+WeaponName);
+    System.out.println ("Weapon weight = "+WeaponWeight);
+    System.out.println ("Weapon examine = "+WeaponExamine);
+    System.out.println ("Weapon damage = "+WeaponDamage);
   }
 }
 //Superclass of Weapons, Armor, and Nutrition
