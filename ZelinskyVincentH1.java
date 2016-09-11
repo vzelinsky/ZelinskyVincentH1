@@ -75,3 +75,15 @@ class Weapon extends Item
     return Damage;
   }
 }
+//Contains get method to the private field of Defense
+class Armor extends Item
+{
+  //Initializes and sets value for Defense field
+  private int Defense = 3;
+  
+  //Get method to return the int value of Defense
+  int getDefense()
+  {
+    return Defense;
+  }
+}
