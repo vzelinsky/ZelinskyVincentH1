@@ -9,3 +9,27 @@ class ZelinskyVincentH1
   {
   }
 }
+//Contains get methods to the private fields: Name, Weight, Examine
+class Item 
+{
+  //Initializes and sets values for Name, Weight, Examine fields
+  private String Name = "insert item name here";
+  private int Weight = 1;
+  private String Examine = "insert item description here";
+  
+  //Get method to return the String value of Name
+  String getName() 
+  {
+    return Name;
+  }
+  //Get method to return the int value of Weight
+  int getWeight() 
+  {
+    return Weight;
+  }
+  //Get method to return the String value of Examine
+  String examine() 
+  {
+    return Examine;
+  }
+}
