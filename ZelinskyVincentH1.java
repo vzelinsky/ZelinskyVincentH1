@@ -3,10 +3,24 @@
  * 
  * Demonstrates Object Oriented Design principles, class inheritance and data encapsulation, through classes representative of things you'd find in a Role Playing Game.
  */
+//Tests values of various object's fields through their methods to confirm proper design and implementation
 class ZelinskyVincentH1 
 {
+  //Main method that creates objects, tests their methods, and prints results to console for validation
   public static void main (String[] args)
   {
+    //Creates an instance of the Item class known as i
+    Item i = new Item();
+    
+    //Initializes variables ItemName, ItemWeight, and ItemExamine and sets them to corresponding method calls
+    String ItemName = i.getName();
+    int ItemWeight = i.getWeight();
+    String ItemExamine = i.examine();
+    
+    //Prints to console the values of Item i's fields
+    System.out.println ("Item name = "+ItemName);
+    System.out.println ("Item weight = "+ItemWeight);
+    System.out.println ("Item examine = "+ItemExamine);
   }
 }
 //Contains get methods to the private fields: Name, Weight, Examine
