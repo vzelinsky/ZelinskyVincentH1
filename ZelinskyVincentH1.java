@@ -102,3 +102,26 @@ class Armor extends Item
     return Defense;
   }
 }
+//Contains get method for Nutrition as well as getter and setter methods for Quantity
+class Food extends Item
+{
+  //Initializes and sets values for Nutrition and Quantity fields
+  private int Nutrition = 4;
+  private int Quantity = 5;
+  
+  //Get method to return the int value of Nutrition
+  int getNutrition()
+  {
+    return Nutrition;
+  }
+  //Get method to return the int value of Quantity
+  int getQuantity()
+  {
+    return Quantity;
+  }
+  //Set method to update the int value of Quantity
+  void setQuantity(int newValue)
+  {
+    Quantity = newValue;
+  }
+}
