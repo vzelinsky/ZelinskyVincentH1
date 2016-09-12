@@ -51,6 +51,32 @@ class ZelinskyVincentH1
     System.out.println ("Armor weight = "+ArmorWeight);
     System.out.println ("Armor examine = "+ArmorExamine);
     System.out.println ("Armor defense = "+ArmorDefense);
+    
+    //Creates an instance of the Food class known as f
+    Food f = new Food();
+    
+    //Initializes variables FoodName, FoodWeight, FoodExamine,FoodNutrition, and FoodQuantity and sets them to corresponding method calls
+    String FoodName = f.getName();
+    int FoodWeight = f.getWeight();
+    String FoodExamine = f.examine();
+    int FoodNutrition = f.getNutrition();
+    int FoodQuantity = f.getQuantity();
+    
+    //Calls the setQuantity method and changes the value of Quantity to 6
+    f.setQuantity(6);
+    
+    //Initializes the variable FoodQuantityNew to the new value of Quantity
+    int FoodQuantityNew = f.getQuantity();
+    
+    //Prints to console the values of Food f's fields after a new line for clarity
+    System.out.println ("\nFood name = "+FoodName);
+    System.out.println ("Food weight = "+FoodWeight);
+    System.out.println ("Food examine = "+FoodExamine);
+    System.out.println ("Food nutrition = "+FoodNutrition);
+    System.out.println ("Food quantity = "+FoodQuantity);
+    
+    //Prints to console the changed value of Quantity
+    System.out.println ("Food new quantity = "+FoodQuantityNew);
   }
 }
 //Superclass of Weapons, Armor, and Nutrition
