@@ -8,7 +8,7 @@ public class Item {
   public Item (String name, int weight, String examine){
     this.name = name;
     this.weight = weight;
-    this.examine = examine;
+    this.examine = examine+"\nIts name is: "+name+"\nIts weight is: "+weight;
   }
   //Creates method to get name
   public String getName(){

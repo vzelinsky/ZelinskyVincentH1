@@ -7,5 +7,7 @@
 public class GameMain{
   //Main method that creates objects, tests their methods, and prints results to console for validation
   public static void main (String[] args){
+    Item Note_1 = new Item ("Random note",0,"A note that reads:\n\"To whom it may concern,\nIts dangerous to go alone take these items.\"");
+    System.out.println (Note_1.getExamine());
   }
 }
