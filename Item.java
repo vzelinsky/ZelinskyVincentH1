@@ -3,13 +3,13 @@ public class Item {
   //Declares three fields: name, weight, and examine
   private String name;
   private int weight;
-  protected String examine;
+  private String examine;
   
   //Creates a constructor for Item
   public Item (String name, int weight, String examine){
     this.name = name;
     this.weight = weight;
-    this.examine = examine+"\nIts name is: "+name+"\nIts weight is: "+weight;
+    this.examine = examine;
   }
   //Creates method to get name
   public String getName(){
@@ -21,6 +21,6 @@ public class Item {
   }
   //Creates method to get examine
   public String getExamine(){
-    return examine;
+    return examine+"\nIts name is: "+name+"\nIts weight is: "+weight;
   }
 }
