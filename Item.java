@@ -3,7 +3,7 @@ public class Item {
   //Declares three fields: name, weight, and examine
   private String name;
   private int weight;
-  private String examine;
+  protected String examine;
   
   //Creates a constructor for Item
   public Item (String name, int weight, String examine){

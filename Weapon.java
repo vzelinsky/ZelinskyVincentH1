@@ -5,7 +5,8 @@ public class Weapon extends Item{
   
   //Creates a constructor for Weapon
   public Weapon (String name, int weight, String examine, int damage){
-    super(name, weight, examine);
+    super(name, weight,examine);
+    this.examine = examine+"\nIts name is: "+name+"\nIts weight is: "+weight+"\nIts damage is: "+damage;
     this.damage = damage;
   }
   //Creates a method to get damage
