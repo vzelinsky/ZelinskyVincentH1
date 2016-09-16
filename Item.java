@@ -4,6 +4,7 @@ public class Item {
   private String name;
   private int weight;
   private String examine;
+  
   //Creates a constructor for Item
   public Item (String name, int weight, String examine){
     this.name = name;
