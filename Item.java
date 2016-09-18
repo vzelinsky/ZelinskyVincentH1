@@ -1,7 +1,7 @@
 /* ~9:45 9/17/16: 
  * I cannot find a reason to allow other team members to use setters on name, examine, and especially the weight fields.
  * These fields, once set in an object's creation, have no reason to be set again. Why would you change the name? Why would you change the weight?
- * The only reason I can see these needing to be set is if the object was somehow modified by the player and instead of using a new object you wanted to edit this current one.
+ * The only reason I can see these needing to be set is if the object was somehow modified by the player and instead of using a new object you wanted to edit an existing one.
  * I will add them for the sake of convenience for my pretend team if I have extra time.
  */
 //Creates the superclass Item which contains the fields for name, weight, and examine
