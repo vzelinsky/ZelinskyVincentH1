@@ -3,7 +3,7 @@
  * 
  * Creates the Armor subclass of Item which contains the fields defense and examine; invokes the second constructor in Item; creates a getDefense method and overloades the getExamine method.
  */ 
-//Creates the class Armor which contains the fields for name, weight, examine, and damage
+//Creates the class Armor which contains the fields for name, weight, examine, and defense
 public class Armor extends Item{
   //Declares the fields defense and examine
   private int defense;
