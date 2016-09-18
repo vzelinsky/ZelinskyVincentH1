@@ -1,6 +1,6 @@
 //Creates the class Weapon which contains the fields for name, weight, examine, and damage
 public class Weapon extends Item{
-  //Declares the field damage
+  //Declares the fields damage and examine
   private int damage;
   private String examine;
   
