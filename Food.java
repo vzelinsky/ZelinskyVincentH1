@@ -1,3 +1,8 @@
+/* Food.java
+ * Written by Vincent Zelinsky
+ * 
+ * Creates the Food subclass of Item which contains four fields (nutrition, quantity, weight, and examine); invokes the third constructor in Item; creates getters for nutrition and quantity; and overloades getWeight and getExamine.
+ */
 //Creates the class Food which contains the fields for name, weight, examine, nutrition, and quantity
 public class Food extends Item{
   //Declares the fields damage and examine
