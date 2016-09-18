@@ -22,6 +22,10 @@ public class Item {
     this.name = nameInput;
     this.weight = weightInput;
   }
+  //Adds a third constructor for Item that is meant to be invoked by the Food subclass because of changing weights
+  public Item (String nameInput){
+    this.name = nameInput;
+  }
   //Creates method to get name
   public String getName(){
     return name;

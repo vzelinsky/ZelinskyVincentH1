@@ -27,8 +27,8 @@ public class GameMain{
     Food Food_1 = new Food ("Bread",1,"One fresh loaf of bread.",30,1);
     //Prints the returned values from Food_1 for validation
     System.out.println (Food_1.getName()+"\n"+Food_1.getWeight()+"\n"+Food_1.getNutrition()+"\n"+Food_1.getQuantity()+"\n"+Food_1.getExamine()+"\n");
-    
+    //Tests the setQuantity method and the getWeight method and prints for validation
     Food_1.setQuantity(2);
-    System.out.println (Food_1.getQuantity()+"\n"+Food_1.getExamine());
+    System.out.println (Food_1.getQuantity()+"\n"+Food_1.getWeight()+"\n"+Food_1.getExamine());
   }
 }

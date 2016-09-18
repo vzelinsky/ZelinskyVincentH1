@@ -3,11 +3,13 @@ public class Food extends Item{
   //Declares the fields damage and examine
   private int nutrition;
   private int quantity;
+  private int weight;
   private String examine;
   
-  //Creates a constructor for Food that invokes the second constructor in Item and adds to it
+  //Creates a constructor for Food that invokes the third constructor in Item and adds to it
   public Food (String nameInput, int weightInput, String examineInput, int nutritionInput, int quantityInput){
-    super(nameInput, weightInput);
+    super(nameInput);
+    this.weight = weightInput;
     this.examine = examineInput;
     this.nutrition = nutritionInput;
     this.quantity = quantityInput;
@@ -23,6 +25,11 @@ public class Food extends Item{
   //Creates a method to set quantity
   public void setQuantity(int quantityInput){
     quantity = quantityInput;
+  }
+  //Overloads the getWeight method so when called it returns
+  @Override
+  public int getWeight(){
+    return weight*quantity;
   }
   //Overloads the getExamine method so when called it adds nutrition and quantity
   @Override
