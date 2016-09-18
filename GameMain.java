@@ -14,8 +14,13 @@ public class GameMain{
     System.out.println (Note_1.getName()+"\n"+Note_1.getWeight()+"\n"+Note_1.getExamine()+"\n");
     
     //Creates a Weapon object called Sword_1 and passes values to its fields
-    Weapon Sword_1 = new Weapon ("Steel sword",3,"An average longsword not remarkable in any way.",30);
+    Weapon Sword_1 = new Weapon ("Steel sword",4,"An average steel longsword, a finely balanced weapon but otherwise unremarkable.",3);
     //Prints the returned values from Sword_1 for validation
     System.out.println (Sword_1.getName()+"\n"+Sword_1.getWeight()+"\n"+Sword_1.getDamage()+"\n"+Sword_1.getExamine()+"\n");
+    
+    //Creates an Armor object called Armor_1 and passes values to its fields
+    Armor Armor_1 = new Armor ("Leather Armor",15,"Hardened leather plates, normally used for sparring, this armor can at least dampen any blows received.",2);
+    //Prints the returned values from Sword_1 for validation
+    System.out.println (Armor_1.getName()+"\n"+Armor_1.getWeight()+"\n"+Armor_1.getDefense()+"\n"+Armor_1.getExamine()+"\n");
   }
 }
