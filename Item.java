@@ -12,15 +12,15 @@ public class Item {
   private String examine;
   
   //Creates a constructor for Item that is meant to be invoked by the creation of an Item object
-  public Item (String name, int weight, String examine){
-    this.name = name;
-    this.weight = weight;
-    this.examine = examine;
+  public Item (String nameInput, int weightInput, String examineInput){
+    this.name = nameInput;
+    this.weight = weightInput;
+    this.examine = examineInput;
   }
   //Adds a second constructor for Item that is meant to be invoked by any subclass constructors
-  public Item (String name, int weight){
-    this.name = name;
-    this.weight = weight;
+  public Item (String nameInput, int weightInput){
+    this.name = nameInput;
+    this.weight = weightInput;
   }
   //Creates method to get name
   public String getName(){

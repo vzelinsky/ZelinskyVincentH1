@@ -6,11 +6,11 @@ public class Food extends Item{
   private String examine;
   
   //Creates a constructor for Food that invokes the second constructor in Item and adds to it
-  public Food (String name, int weight, String examine, int nutrition, int quantity){
-    super(name, weight);
-    this.examine = examine;
-    this.nutrition = nutrition;
-    this.quantity = quantity;
+  public Food (String nameInput, int weightInput, String examineInput, int nutritionInput, int quantityInput){
+    super(nameInput, weightInput);
+    this.examine = examineInput;
+    this.nutrition = nutritionInput;
+    this.quantity = quantityInput;
   }
   //Creates a method to get nutrition
   public int getNutrition(){
@@ -21,8 +21,8 @@ public class Food extends Item{
     return quantity;
   }
   //Creates a method to set quantity
-  public void setQuantity(int quantity){
-    quantity = quantity;
+  public void setQuantity(int quantityInput){
+    quantity = quantityInput;
   }
   //Overloads the getExamine method so when called it adds nutrition and quantity
   @Override

@@ -5,10 +5,10 @@ public class Armor extends Item{
   private String examine;
   
   //Creates a constructor for Armor that invokes the second constructor in Item and adds to it
-  public Armor (String name, int weight, String examine, int defense){
-    super(name, weight);
-    this.examine = examine;
-    this.defense = defense;
+  public Armor (String nameInput, int weightInput, String examineInput, int defenseInput){
+    super(nameInput, weightInput);
+    this.examine = examineInput;
+    this.defense = defenseInput;
   }
   //Creates a method to get damage
   public int getDefense(){
