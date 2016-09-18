@@ -26,7 +26,7 @@ public class Food extends Item{
   public void setQuantity(int quantityInput){
     quantity = quantityInput;
   }
-  //Overloads the getWeight method so when called it returns
+  //Overloads the getWeight method so when called it returns weight*quantity
   @Override
   public int getWeight(){
     return weight*quantity;
